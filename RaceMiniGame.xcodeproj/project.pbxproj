@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D73DE5BA294BD01400C0EF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DE5B9294BD01400C0EF11 /* AppDelegate.swift */; };
+		D73DE5BC294BD01400C0EF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DE5BB294BD01400C0EF11 /* SceneDelegate.swift */; };
+		D73DE5BE294BD01400C0EF11 /* mainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DE5BD294BD01400C0EF11 /* mainScreenVC.swift */; };
+		D73DE5C1294BD01400C0EF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73DE5BF294BD01400C0EF11 /* Main.storyboard */; };
+		D73DE5C3294BD01B00C0EF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D73DE5C2294BD01B00C0EF11 /* Assets.xcassets */; };
+		D73DE5C6294BD01B00C0EF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D73DE5C4294BD01B00C0EF11 /* LaunchScreen.storyboard */; };
+		D73DE5D1294BD87500C0EF11 /* playersLabelDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DE5D0294BD87500C0EF11 /* playersLabelDesign.swift */; };
+		D73DE5D3294BDA9600C0EF11 /* mainButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D73DE5D2294BDA9600C0EF11 /* mainButtonDesign.swift */; };
+		D75FE2F9294BE22A0053576F /* resultScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75FE2F8294BE22A0053576F /* resultScreenVC.swift */; };
+		D75FE2FB294BE28A0053576F /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75FE2FA294BE28A0053576F /* AudioModel.swift */; };
+		D75FE2FF294BE6190053576F /* mainButtonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D75FE2FD294BE6190053576F /* mainButtonSound.mp3 */; };
+		D75FE300294BE6190053576F /* welcomeSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D75FE2FE294BE6190053576F /* welcomeSound.mp3 */; };
+		D75FE302294BE8BC0053576F /* getInformationButtonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D75FE301294BE8BC0053576F /* getInformationButtonSound.mp3 */; };
+		D7D4B09B294C95DF00447E5F /* ParticipantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D4B09A294C95DF00447E5F /* ParticipantModel.swift */; };
+		D7DE0147294D17A40055D6BB /* imageBackgroundDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE0146294D17A40055D6BB /* imageBackgroundDesign.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D73DE5B6294BD01400C0EF11 /* RaceMiniGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaceMiniGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D73DE5B9294BD01400C0EF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D73DE5BB294BD01400C0EF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D73DE5BD294BD01400C0EF11 /* mainScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainScreenVC.swift; sourceTree = "<group>"; };
+		D73DE5C0294BD01400C0EF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D73DE5C2294BD01B00C0EF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D73DE5C5294BD01B00C0EF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D73DE5C7294BD01B00C0EF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D73DE5D0294BD87500C0EF11 /* playersLabelDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playersLabelDesign.swift; sourceTree = "<group>"; };
+		D73DE5D2294BDA9600C0EF11 /* mainButtonDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainButtonDesign.swift; sourceTree = "<group>"; };
+		D75FE2F8294BE22A0053576F /* resultScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultScreenVC.swift; sourceTree = "<group>"; };
+		D75FE2FA294BE28A0053576F /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		D75FE2FD294BE6190053576F /* mainButtonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainButtonSound.mp3; sourceTree = "<group>"; };
+		D75FE2FE294BE6190053576F /* welcomeSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = welcomeSound.mp3; sourceTree = "<group>"; };
+		D75FE301294BE8BC0053576F /* getInformationButtonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = getInformationButtonSound.mp3; sourceTree = "<group>"; };
+		D7D4B09A294C95DF00447E5F /* ParticipantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantModel.swift; sourceTree = "<group>"; };
+		D7DE0146294D17A40055D6BB /* imageBackgroundDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageBackgroundDesign.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D73DE5B3294BD01300C0EF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D73DE5AD294BD01300C0EF11 = {
+			isa = PBXGroup;
+			children = (
+				D73DE5B8294BD01400C0EF11 /* RaceMiniGame */,
+				D73DE5B7294BD01400C0EF11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D73DE5B7294BD01400C0EF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D73DE5B6294BD01400C0EF11 /* RaceMiniGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D73DE5B8294BD01400C0EF11 /* RaceMiniGame */ = {
+			isa = PBXGroup;
+			children = (
+				D73DE5B9294BD01400C0EF11 /* AppDelegate.swift */,
+				D73DE5BB294BD01400C0EF11 /* SceneDelegate.swift */,
+				D73DE5BF294BD01400C0EF11 /* Main.storyboard */,
+				D73DE5C4294BD01B00C0EF11 /* LaunchScreen.storyboard */,
+				D73DE5CD294BD7AB00C0EF11 /* Models */,
+				D73DE5CE294BD82200C0EF11 /* Views */,
+				D73DE5CF294BD82700C0EF11 /* Controllers */,
+				D75FE2FC294BE5E90053576F /* Sounds */,
+				D73DE5C2294BD01B00C0EF11 /* Assets.xcassets */,
+				D73DE5C7294BD01B00C0EF11 /* Info.plist */,
+			);
+			path = RaceMiniGame;
+			sourceTree = "<group>";
+		};
+		D73DE5CD294BD7AB00C0EF11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE2FA294BE28A0053576F /* AudioModel.swift */,
+				D7D4B09A294C95DF00447E5F /* ParticipantModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D73DE5CE294BD82200C0EF11 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D73DE5D0294BD87500C0EF11 /* playersLabelDesign.swift */,
+				D73DE5D2294BDA9600C0EF11 /* mainButtonDesign.swift */,
+				D7DE0146294D17A40055D6BB /* imageBackgroundDesign.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D73DE5CF294BD82700C0EF11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D73DE5BD294BD01400C0EF11 /* mainScreenVC.swift */,
+				D75FE2F8294BE22A0053576F /* resultScreenVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D75FE2FC294BE5E90053576F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D75FE301294BE8BC0053576F /* getInformationButtonSound.mp3 */,
+				D75FE2FD294BE6190053576F /* mainButtonSound.mp3 */,
+				D75FE2FE294BE6190053576F /* welcomeSound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D73DE5B5294BD01300C0EF11 /* RaceMiniGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D73DE5CA294BD01B00C0EF11 /* Build configuration list for PBXNativeTarget "RaceMiniGame" */;
+			buildPhases = (
+				D73DE5B2294BD01300C0EF11 /* Sources */,
+				D73DE5B3294BD01300C0EF11 /* Frameworks */,
+				D73DE5B4294BD01300C0EF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaceMiniGame;
+			productName = RaceMiniGame;
+			productReference = D73DE5B6294BD01400C0EF11 /* RaceMiniGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D73DE5AE294BD01300C0EF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					D73DE5B5294BD01300C0EF11 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D73DE5B1294BD01300C0EF11 /* Build configuration list for PBXProject "RaceMiniGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D73DE5AD294BD01300C0EF11;
+			productRefGroup = D73DE5B7294BD01400C0EF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D73DE5B5294BD01300C0EF11 /* RaceMiniGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D73DE5B4294BD01300C0EF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE300294BE6190053576F /* welcomeSound.mp3 in Resources */,
+				D75FE2FF294BE6190053576F /* mainButtonSound.mp3 in Resources */,
+				D73DE5C6294BD01B00C0EF11 /* LaunchScreen.storyboard in Resources */,
+				D73DE5C3294BD01B00C0EF11 /* Assets.xcassets in Resources */,
+				D75FE302294BE8BC0053576F /* getInformationButtonSound.mp3 in Resources */,
+				D73DE5C1294BD01400C0EF11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D73DE5B2294BD01300C0EF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D75FE2FB294BE28A0053576F /* AudioModel.swift in Sources */,
+				D7D4B09B294C95DF00447E5F /* ParticipantModel.swift in Sources */,
+				D73DE5BE294BD01400C0EF11 /* mainScreenVC.swift in Sources */,
+				D73DE5D3294BDA9600C0EF11 /* mainButtonDesign.swift in Sources */,
+				D73DE5D1294BD87500C0EF11 /* playersLabelDesign.swift in Sources */,
+				D75FE2F9294BE22A0053576F /* resultScreenVC.swift in Sources */,
+				D73DE5BA294BD01400C0EF11 /* AppDelegate.swift in Sources */,
+				D7DE0147294D17A40055D6BB /* imageBackgroundDesign.swift in Sources */,
+				D73DE5BC294BD01400C0EF11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D73DE5BF294BD01400C0EF11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73DE5C0294BD01400C0EF11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D73DE5C4294BD01B00C0EF11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D73DE5C5294BD01B00C0EF11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D73DE5C8294BD01B00C0EF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D73DE5C9294BD01B00C0EF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D73DE5CB294BD01B00C0EF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaceMiniGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RaceMiniGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D73DE5CC294BD01B00C0EF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaceMiniGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.RaceMiniGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D73DE5B1294BD01300C0EF11 /* Build configuration list for PBXProject "RaceMiniGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DE5C8294BD01B00C0EF11 /* Debug */,
+				D73DE5C9294BD01B00C0EF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D73DE5CA294BD01B00C0EF11 /* Build configuration list for PBXNativeTarget "RaceMiniGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D73DE5CB294BD01B00C0EF11 /* Debug */,
+				D73DE5CC294BD01B00C0EF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D73DE5AE294BD01300C0EF11 /* Project object */;
+}

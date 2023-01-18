@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main ScreenVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="mainScreenVC" customModule="RaceMiniGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8yH-ag-IBV">
+                                <rect key="frame" x="30" y="97" width="315" height="150"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstParticipant" translatesAutoresizingMaskIntoConstraints="NO" id="he9-nz-HMG">
+                                        <rect key="frame" x="0.0" y="0.0" width="153.66666666666666" height="150"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SecondParticipant" translatesAutoresizingMaskIntoConstraints="NO" id="RRb-PW-6KT">
+                                        <rect key="frame" x="161.66666666666663" y="0.0" width="153.33333333333337" height="150"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="GNj-Kw-Lks"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="sOl-vG-iT6">
+                                <rect key="frame" x="50" y="287" width="275" height="45"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enrico" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="NNn-QY-7f2" customClass="playersLabelDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="106.66666666666667" height="45"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.92156862750000001" blue="0.87843137250000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bob" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Zt8-Ow-iSB" customClass="playersLabelDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                        <rect key="frame" x="168.66666666666666" y="0.0" width="106.33333333333334" height="45"/>
+                                        <color key="backgroundColor" red="0.96078431369999995" green="0.92156862750000001" blue="0.87843137250000003" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="JlA-RL-7EL"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9BF-ia-Kmi" customClass="mainButtonDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                <rect key="frame" x="100" y="638" width="175" height="60"/>
+                                <color key="backgroundColor" red="0.51372549019607838" green="0.60392156862745094" blue="0.6588235294117647" alpha="0.7009850306226717" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="MWZ-yD-2dy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Start race">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startRace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PFc-Ue-S65"/>
+                                    <segue destination="8kL-Yn-CKP" kind="show" identifier="startRaceTapped" id="Bc5-ch-bhj"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="eH4-Yk-tXj">
+                                <rect key="frame" x="50" y="352" width="275" height="40"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i7v-XF-PVg">
+                                        <rect key="frame" x="0.0" y="0.0" width="107.66666666666667" height="40"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="19"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="info.circle" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getPlayer1Information:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9iZ-D9-gkz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYD-sM-n6b">
+                                        <rect key="frame" x="167.66666666666666" y="0.0" width="107.33333333333334" height="40"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="19"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal">
+                                            <imageReference key="image" image="info.circle" catalog="system" symbolScale="large"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="getPlayer2Information:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rQf-LC-Ga7"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="nPo-h2-WL7"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click ⓘ to check players benefits. To start the game click &quot;Start race&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="nJL-3b-yRe">
+                                <rect key="frame" x="50" y="452" width="275" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="xmg-f6-83e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="0.24730444901826365" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.10588235294117647" green="0.14117647058823529" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="9BF-ia-Kmi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="BhH-d1-pGf"/>
+                            <constraint firstItem="nJL-3b-yRe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="KM5-q6-6PP"/>
+                            <constraint firstItem="sOl-vG-iT6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PvJ-Up-feN"/>
+                            <constraint firstItem="nJL-3b-yRe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RDP-rV-sUb"/>
+                            <constraint firstItem="8yH-ag-IBV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RFj-2a-1SV"/>
+                            <constraint firstItem="eH4-Yk-tXj" firstAttribute="top" secondItem="sOl-vG-iT6" secondAttribute="bottom" constant="20" id="Tsd-CZ-1tv"/>
+                            <constraint firstItem="sOl-vG-iT6" firstAttribute="top" secondItem="8yH-ag-IBV" secondAttribute="bottom" constant="40" id="YpD-d8-xfH"/>
+                            <constraint firstItem="sOl-vG-iT6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="c9c-Hq-5PW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="9BF-ia-Kmi" secondAttribute="bottom" constant="80" id="fLf-Js-ew6"/>
+                            <constraint firstItem="9BF-ia-Kmi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gCT-ar-Gyt"/>
+                            <constraint firstItem="nJL-3b-yRe" firstAttribute="top" secondItem="eH4-Yk-tXj" secondAttribute="bottom" constant="60" id="nq7-yz-Mig"/>
+                            <constraint firstItem="8yH-ag-IBV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="tAs-3K-4UY"/>
+                            <constraint firstItem="eH4-Yk-tXj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ugZ-hz-6Qh"/>
+                            <constraint firstItem="eH4-Yk-tXj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="vhq-AG-pxN"/>
+                            <constraint firstItem="8yH-ag-IBV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="yKe-tG-I6T"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="player1Image" destination="he9-nz-HMG" id="zTS-iA-Xuu"/>
+                        <outlet property="player1InfoButton" destination="i7v-XF-PVg" id="tzr-fP-BgC"/>
+                        <outlet property="player1Label" destination="NNn-QY-7f2" id="kdS-ch-aTx"/>
+                        <outlet property="player2Image" destination="RRb-PW-6KT" id="mfD-mB-zZQ"/>
+                        <outlet property="player2InfoButton" destination="HYD-sM-n6b" id="yhl-0s-NRF"/>
+                        <outlet property="player2Label" destination="Zt8-Ow-iSB" id="yJH-ZN-3qh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="93.599999999999994" y="40.64039408866995"/>
+        </scene>
+        <!--Result ScreenVC-->
+        <scene sceneID="zre-Kz-43N">
+            <objects>
+                <viewController id="8kL-Yn-CKP" customClass="resultScreenVC" customModule="RaceMiniGame" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SB2-hy-Eie">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="755"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t6n-px-IEd" customClass="mainButtonDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                <rect key="frame" x="100" y="615" width="175" height="60"/>
+                                <color key="backgroundColor" red="0.51372549020000002" green="0.60392156860000001" blue="0.6588235294" alpha="0.70098503059999995" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="k7r-pG-Ndg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="25"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Play again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="playAgainTapped:" destination="8kL-Yn-CKP" eventType="touchUpInside" id="5JG-uP-Qvd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enrico won this game" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="rge-TT-3uW" customClass="playersLabelDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                <rect key="frame" x="30" y="57" width="315" height="60"/>
+                                <color key="backgroundColor" red="0.22352941176470587" green="0.24313725490196078" blue="0.27450980392156865" alpha="0.84794586383743786" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PXg-IP-Evo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="26"/>
+                                <color key="textColor" red="0.99607843137254903" green="0.9882352941176471" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FirstParticipant" translatesAutoresizingMaskIntoConstraints="NO" id="3dB-tV-tJ8" customClass="imageBackgroundDesign" customModule="RaceMiniGame" customModuleProvider="target">
+                                <rect key="frame" x="50" y="197" width="275" height="338"/>
+                                <color key="backgroundColor" red="0.96078431369999995" green="0.92156862750000001" blue="0.87843137250000003" alpha="0.80336958530000002" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cgR-Cf-OwF"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.14117647059999999" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3dB-tV-tJ8" firstAttribute="top" secondItem="rge-TT-3uW" secondAttribute="bottom" constant="80" id="0Zx-w6-vqj"/>
+                            <constraint firstItem="3dB-tV-tJ8" firstAttribute="centerX" secondItem="SB2-hy-Eie" secondAttribute="centerX" id="28h-Vn-ULA"/>
+                            <constraint firstItem="t6n-px-IEd" firstAttribute="leading" secondItem="cgR-Cf-OwF" secondAttribute="leading" constant="100" id="3zU-jN-aJJ"/>
+                            <constraint firstItem="cgR-Cf-OwF" firstAttribute="bottom" secondItem="t6n-px-IEd" secondAttribute="bottom" constant="80" id="4qr-4b-lUg"/>
+                            <constraint firstItem="t6n-px-IEd" firstAttribute="top" secondItem="3dB-tV-tJ8" secondAttribute="bottom" constant="80" id="86Y-8a-9tH"/>
+                            <constraint firstItem="rge-TT-3uW" firstAttribute="leading" secondItem="cgR-Cf-OwF" secondAttribute="leading" constant="30" id="8ki-j3-Yr9"/>
+                            <constraint firstItem="rge-TT-3uW" firstAttribute="centerX" secondItem="SB2-hy-Eie" secondAttribute="centerX" id="URc-aO-XfV"/>
+                            <constraint firstItem="rge-TT-3uW" firstAttribute="top" secondItem="cgR-Cf-OwF" secondAttribute="top" constant="10" id="hCr-xt-fHi"/>
+                            <constraint firstItem="3dB-tV-tJ8" firstAttribute="leading" secondItem="cgR-Cf-OwF" secondAttribute="leading" constant="50" id="nJf-8O-9js"/>
+                            <constraint firstItem="t6n-px-IEd" firstAttribute="centerX" secondItem="SB2-hy-Eie" secondAttribute="centerX" id="z67-OM-FFJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Tq-8q-ovG"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="rge-TT-3uW" id="Qp4-6b-ra6"/>
+                        <outlet property="winnerImage" destination="3dB-tV-tJ8" id="3bv-vY-gv0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVf-Wr-iyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861.60000000000002" y="40.64039408866995"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FirstParticipant" width="235.33332824707031" height="290.66665649414062"/>
+        <image name="SecondParticipant" width="197.33332824707031" height="277.33334350585938"/>
+        <image name="info.circle" catalog="system" width="128" height="123"/>
+    </resources>
+</document>
